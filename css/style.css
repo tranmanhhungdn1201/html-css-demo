@@ -7,6 +7,7 @@ body{
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  height: 100%;
 }
 .nav-menu{
   width: 100%;
@@ -16,6 +17,7 @@ body{
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 .nav-menu .container{
   margin-top: 10px;
@@ -52,4 +54,56 @@ body{
 }
 .nav-menu .nav-right ul>li>a:hover{
   color: #fff;
+}
+.intro{
+  width: 100%;
+  height: 720px;
+  background-image: url("https://dq5r178u4t83b.cloudfront.net/wp-content/uploads/sites/86/2019/05/17090132/WH1_1232_update.jpg");
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.intro .overlay{
+  height: 100%;
+  background-color: rgba(0,0,0,0.45);
+}
+.content-header .intro-text{
+  padding-top: 300px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.content-header .intro-text h1{
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: -18px;
+}
+.content-header .intro-text h1 strong,span{
+  font-size: 65px;
+  text-transform: uppercase;
+}
+.content-header .intro-text h1 span{
+  color: #a7c44c;
+}
+.intro-text p{
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+
+.btn-learn-more{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: #a7c44c;
+  padding: 16px 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  border-radius: 15px 0px;
+  transition: background-color 0.3s
+}
+
+.btn-learn-more:hover{
+  background-color: #98b347;
 }
